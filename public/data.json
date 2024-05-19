@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "name": "Иванов Иван Иванович",
+    "photo": "user-svgrepo-com.svg",
+    "level": 0,
+    "children": [
+      {
+        "id": 2,
+        "name": "Иванова Мария Ивановна",
+        "photo": "user-svgrepo-com.svg",
+        "level": 1,
+        "children": [
+          {
+            "id": 5,
+            "name": "Иванов Николай Павлович",
+            "photo": "user-svgrepo-com.svg",
+            "level": 2,
+            "children": [
+              {
+                "id": 6,
+                "name": "Иванова Анна Николаевна",
+                "photo": "user-svgrepo-com.svg",
+                "level": 3,
+                "children": [
+                  {
+                    "id": 7,
+                    "name": "Иванов Петр Антонович",
+                    "photo": "user-svgrepo-com.svg",
+                    "level": 4,
+                    "children": [
+                      {
+                        "id": 8,
+                        "name": "Иванова Ольга Петровна",
+                        "photo": "user-svgrepo-com.svg",
+                        "children": [],
+                        "level": 5
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+
+      },
+      {
+        "id": 3,
+        "name": "Иванов Павел Иванович",
+        "photo": "user-svgrepo-com.svg",
+        "children": [],
+        "level": 1
+      }
+    ]
+
+  },
+  {
+    "id": 4,
+    "name": "Иванов Сергей Павлович",
+    "photo": "user-svgrepo-com.svg",
+    "level": 0,
+    "children": [
+      {
+        "id": 1,
+        "name": "Иванов Иван Иванович",
+        "photo": "user-svgrepo-com.svg",
+        "children": [],
+        "level": 2
+      }
+    ]
+  }
+]
